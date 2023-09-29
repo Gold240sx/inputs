@@ -17,9 +17,9 @@ function App() {
 					{/* <Form /> */}
 					{/* <NestedDataForm /> */}
 					{/* <InputTypeForm /> */}
-                    {/* <SupabaseForm /> */}
-                    <MultipleSupabaseTablesForm />
-					{/* <ReactHookForm /> */}
+					{/* <SupabaseForm /> */}
+					{/* <MultipleSupabaseTablesForm /> */}
+					<ReactHookForm />
 				</div>
 			</main>
 		</>
