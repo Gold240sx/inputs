@@ -64,17 +64,6 @@ const RHFSelect = ({ name, options, control, register, errors, ...rest }) => {
 	const { getValues } = useForm()
 	const [selectedValue, setSelectedValue] = useState("")
 
-	useEffect(() => {
-		// const matchingInput = document.querySelector(`input[name="${name}"]`)
-		// console.log(matchingInput)
-		// matchingInput.type = "text"
-		// // matchingInput.props = { ...register(name) }
-		// matchingInput.value = getValues(name)
-		// matchingInput.onChange = (e) => {
-		// 	setSelectedValue(name, e.target.value)
-		// }
-	}, [])
-
 	return (
 		<div className={`${rest.className}`}>
 			{options.find((option) => option.value === rest.value) && (
@@ -83,7 +72,7 @@ const RHFSelect = ({ name, options, control, register, errors, ...rest }) => {
 				</div>
 			)}
 			<div className="block mb-2">
-				<Select
+				{/* <Select
 					options={options}
 					value={selectedValue}
 					name={name}
@@ -101,7 +90,7 @@ const RHFSelect = ({ name, options, control, register, errors, ...rest }) => {
 					// 	setSelectedValue(e.value)
 					// 	console.log(name, e.value)
 					// }}
-				/>
+				// /> */}
 			</div>
 		</div>
 	)

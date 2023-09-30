@@ -5,8 +5,8 @@ import ReactHookForm from "./forms/react-hook-form";
 import InputTypeForm from "./forms/inputType-form"
 import SupabaseForm from "./forms/supabaseForm"
 import MultipleSupabaseTablesForm from "./forms/multipleSupabaseTables-form"
+import ReactHookFormSelect from "./forms/react-hook-form-select-JS"
 import "./styles/index.css"
-
 
 function App() {
 	return (
@@ -19,7 +19,8 @@ function App() {
 					{/* <InputTypeForm /> */}
 					{/* <SupabaseForm /> */}
 					{/* <MultipleSupabaseTablesForm /> */}
-					<ReactHookForm />
+					<ReactHookFormSelect />
+					{/* <ReactHookForm /> */}
 				</div>
 			</main>
 		</>
